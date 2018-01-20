@@ -1,0 +1,83 @@
+.firms{
+    margin:0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+   background: url(../img/151918-OUR8UG-938.jpg) no-repeat ;
+    background-size: cover;
+    background-position: top;
+}
+
+.firms__list{
+    list-style-type: none;
+    margin:10px 5px; auto;
+    padding: 0;
+    background-color: none;
+    width: 80%
+
+}
+
+.firms__list__item{
+
+    padding:0;
+    margin: 0 auto;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: center;
+    transition: 0.5s opacity linear;
+    opacity:0.85;
+}
+
+
+.firms__list__item__text{
+   background-color:white;
+    width:40%;
+
+    padding: 0 10px;
+
+   height:auto;
+    border-left:1px groove #8AFFC6;
+
+
+
+    font-size:1.4rem;
+}
+.firms__list__item__text h4{
+  font-family: 'Francois One', sans-serif;
+    text-align: center;
+    color: #1FB4BE;
+}
+.firms__list__item__text p{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.7em;
+    color:dimgrey;
+    text-align: justify;
+}
+
+
+
+.firms__list__item__photo{
+    width:50%;
+   overflow: hidden;
+    background-color: #85FAC6;
+}
+.firms__list__item__photo img {
+    width: 100%;
+    height:100%;
+    opacity:0.85;
+
+
+}

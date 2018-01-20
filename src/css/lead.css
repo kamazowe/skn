@@ -1,0 +1,93 @@
+main{
+    margin: 30px 0px 0px 0px;
+}
+.mini{
+    height: 5px;
+ font-size:1px;
+}
+.LEAD{
+    background:url(../img/11831.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    height: 100vh;
+}
+
+
+
+
+.LEAD__item--text{
+
+    max-width:500px;
+    width:50%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    padding: 0px 10px;
+
+}
+
+/* .LEAD__item--text p{
+.hidden p{
+.LEAD__item--text h3{
+  .LEAD__item--photo img{
+     max-width: 200px; */
+
+
+.LEAD__item--text h3{
+  margin-bottom:10px;
+  color:  #A9F3FC;
+  font-size:2rem;
+  font-family: 'Audiowide', sans-serif;
+}
+.LEAD__item--text p{
+    font-size:1.6rem;
+  font-size:
+  color:  #EEFCFD;
+    line-height: 1.7em;
+    text-align: justify;
+}
+.hidden{
+
+  margin:0px 0px 10px 0px;
+  padding: 0px;
+  width: 100%;
+  height:0px;
+  overflow: hidden;
+  transition: 10s height ease-out;
+}
+.hidden p{
+  color:  #EEFCFD;
+  margin:0px;
+  font-size:1.4rem;
+  line-height: normal;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.typing{
+ font-family: 'Black Ops One', sans-serif;
+  color:  #EEFCFD;
+}
+
+
+.LEAD__item--photo img{
+   max-width: 200px;
+    height: auto;
+}
